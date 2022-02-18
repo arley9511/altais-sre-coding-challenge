@@ -5,7 +5,7 @@
 The infrastructure designed to solve this challenge was designed to take into account high availability scenarios
 and resilience.
 
-![Alt text](files/altais-infra.png)
+![Alt text](files/infra.png)
 
 ### Components
 
