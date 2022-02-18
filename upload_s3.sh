@@ -4,7 +4,7 @@ files=(
 "./files/test.txt"
 )
 
-BUCKET_NAME="s3-altais-test-3"
+BUCKET_NAME="s3-altais-test-4"
 AWS_PROFILE="arley_tests"
 
 for file in "${files[@]}"

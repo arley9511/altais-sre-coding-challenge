@@ -13,4 +13,4 @@ systemctl start httpd.service
 
 systemctl enable httpd.service
 
-echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+echo "<h1>Altais test infra<h1> <br/> <img src='https://github.com/arley9511/altais-sre-coding-challenge/blob/7662d59e78fcaa445b179b78f8a1c87ec4a62bb7/files/altais-infra.png?raw=true' alt='diagram'/>" > /var/www/html/index.html

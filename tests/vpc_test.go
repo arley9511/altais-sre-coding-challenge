@@ -218,11 +218,9 @@ func TestTerraformAwsNetworkExample(t *testing.T) {
 			"vpc":             jsonData,
 			"ec2":             `[]`,
 			"s3_with_trigger": `[]`,
+			"load_balancers": `[]`,
 		},
 	})
-
-	// At the end of the test, run `terraform destroy` to clean up any resources that were created
-	defer terraform.Destroy(t, terraformOptions)
 
 	// This will run `terraform init` and `terraform apply` and fail the test if there are any errors
 	terraform.InitAndPlan(t, terraformOptions)

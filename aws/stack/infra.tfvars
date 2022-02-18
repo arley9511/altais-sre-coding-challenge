@@ -193,7 +193,7 @@ s3_with_trigger = [
   {
     topic_name = "s3-update-notification-topic"
     buckets = [
-      "s3-altais-test-3"
+      "s3-altais-test-4"
     ]
     events = "s3:ObjectCreated:*"
   }
